@@ -1,4 +1,6 @@
 #!/bin/python
+# author: mrh
+
 import subprocess
 from time import sleep
 
