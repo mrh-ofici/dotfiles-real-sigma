@@ -1,4 +1,6 @@
 #!/bin/python
+# author: mrh
+
 import subprocess
 from time import sleep
 
@@ -14,7 +16,7 @@ while True:
     
     if first == 0:
         subprocess.run(f"feh --bg-fill --no-fehbg {dir}{id1}", shell=True)
-    first += 1
+        first = 1
     if count > 0:
         
         count = 0
