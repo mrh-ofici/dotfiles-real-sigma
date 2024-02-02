@@ -1,0 +1,6 @@
+# BEGIN_KITTY_THEME
+# Pro
+include current-theme.conf
+# END_KITTY_THEME
+font_size 10
+window_padding_width 6
